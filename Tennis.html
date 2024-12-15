@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sports-Tennis</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: grey;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  width: 20%;
+  height: 1300px;
+  background: orange;
+  padding: 20px;
+  box-sizing: border-box;
+}
+nav a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        nav a:hover {
+            border-color: red;
+        }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+article {
+  flex: 1;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightseagreen;
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: blue;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  article {
+    width: 100%;
+  }
+}
+.posts{
+  color: black;
+}
+</style>
+
+<script>
+  // JavaScript function to show alert when the page is loaded
+  window.onload = function() {
+      alert("Welcome to the Tennis page. Enjoy learning about this exciting sport!");
+  };
+</script>
+<script src = "Tennis.js"></script>
+</head>
+<body>
+
+<header>
+  <h2 style="color:green;"><u>Sports</u></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.xhtml">Football</a></li> <!-- Link to Football page -->
+      <li><a href="Basketball.html">Basketball</a></li> <!-- Link to Basketball page -->
+      <li><a href="Rugby.html">Rugby</a></li> <!-- Link to Rugby page -->
+      <li><a href="Tennis.html">Tennis</a></li> <!-- Link to the Tennis page (current) -->
+    </ul>
+  </nav>
+
+  <article>
+    <h1 style="color:black;"><u>Tennis</u></h1>
+    <p>Tennis is a popular sport played worldwide, both recreationally and professionally. It is typically played between two players (singles) or two teams of two players each (doubles).</p>
+    <p>The game is played on a rectangular court, divided by a net, with each side having a baseline and service boxes. The objective is to score points by hitting the ball over the net into the opponent's side of the court.</p>
+    <p>Tennis is unique in its scoring system, with points counted as 15, 30, 40, and game, with players needing to win by two clear points. Games are played in sets, and matches can be determined by the best of three or five sets, depending on the competition.</p>
+    
+    <img src="Tennis court.jpg" alt="Tennis court" width="300" height="200">
+    <p>The sport is characterized by its intense physical activity, requiring endurance, agility, and strategic shot placement. Players must use a racket to hit a felt-covered rubber ball, which can be played on various surfaces such as grass, clay, or hard courts.</p>
+    
+    <div class="posts">
+
+    </div>
+
+    <h2>Grand Slam Tournaments</h2>
+    <p>The four major Grand Slam tournaments in tennis are:</p>
+    <ul>
+      <li><strong>Australian Open:</strong> Held in Melbourne, Australia, every January.</li>
+      <li><strong>French Open:</strong> Held in Paris, France, every May-June on clay courts.</li>
+      <li><strong>Wimbledon:</strong> Held in London, UK, every June-July on grass courts.</li>
+      <li><strong>US Open:</strong> Held in New York, USA, every August-September on hard courts.</li>
+    </ul>
+
+    <p>Below is an example of a tennis match in action.</p>
+    <video controls src="Tennis match.mp4" alt="Tennis match" width="400" height="200"></video>
+  </article>
+</section>
+
+<footer>
+  <p>Tennis In Sports. All Rights Reserved @2024</p>
+</footer>
+
+</body>
+</html>

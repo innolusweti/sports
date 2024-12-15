@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<posts>
+    <post>
+        <title>Famous Tennis Players</title>
+        <content>Some of the most well-known tennis players in history include:</content>
+        <people>
+            <person><name>Roger Federer</name></person>
+            <person><name>Rafael Nadal</name></person>
+            <person><name>Novak Djokovic</name></person>
+            <person><name>Serena Williams</name></person>
+            <person><name>Venus Williams</name></person>
+        </people>
+    </post>
+</posts>

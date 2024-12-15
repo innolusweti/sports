@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sports-Basketball</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+header {
+  background-color: grey;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  width: 20%;
+  height: 1800px;
+  background: greenyellow;
+  padding: 20px;
+  box-sizing:border-box;
+}
+nav a {
+            display: block;
+            text-decoration: none;
+            color: blue;
+            font-size: 1.2rem;
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        nav a:hover {
+            border-color: red;
+        }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section{
+  display:flex;
+  flex-wrap: wrap;
+  margin:0;
+}
+
+article {
+  flex: 1;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+  box-sizing:border-box;
+}
+img, video {
+max-width: 100%;
+height:auto;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  color: blue;
+}
+/*Responsive layout*/
+@media (max-width: 768px){
+  nav{
+    width:100%;
+  }
+  article{
+    width:100%;
+  }
+}
+</style>
+
+<script>
+  // JavaScript function to show alert when the page is loaded
+  window.onload = function() {
+      alert("Welcome to the Basketball page.Enjoy learning about one of the most popular sports in the world!");
+  };
+</script>
+</head>
+<body>
+
+<header>
+  <h2 style="color:green;"><u>Sports</u></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.xhtml">Football</a></li> <!-- Link back to Home Page -->
+      <li><a href="Basketall.html">Basketball</a></li> <!-- Link to the next page -->
+      <li><a href="Rugby.html">Rugby</a></li> <!-- Link to the next page -->
+      <li><a href="Tennis.html">Tennis</a></li> <!-- Link to the next page -->
+    </ul>
+  </nav>
+  <article>
+    <h1 style="color:black;"><u>Basketball</u></h1>
+    <p>Basketball is another widely popular sport around the world. It is played by two teams of five players each.</p>
+    <p>The game involves a lot of speed, agility, and strategic plays. It is known for its high scoring and dynamic pace.</p>
+    <p>The game of basketball is characterized by frequent starts, stops, and changes of direction, all maintained over a period of time.</p>
+    <img src="Basketball.jpg"alt="Basketball"width="300"height="100">
+    <p>The game is played on a rectangular floor called the court, and there is an elevetad horizontal hoop at each end called a basket. The court is divided into two main sections by the mid-court line.</p>
+    <p>Each team tries to score by tossing the ball through the opponent’s goal which are now the hoops(baskets).</p>
+    <img src="Basketball play.jpg"alt="Basketball play"width="400"height="200">
+    <h2>Basketball Leagues and Competitions</h2>
+    <p>Some of the most well-known basketball leagues and tournaments include:</p>
+    <ul>
+      <li><strong>NBA (National Basketball Association):</strong> The premier professional basketball league in the United States, featuring some of the best players globally.</li>
+      <li><strong>WNBA (Women's National Basketball Association):</strong> The leading professional women's basketball league in the U.S.</li>
+      <li><strong>EuroLeague:</strong> The top basketball league in Europe, with teams from various countries competing at the highest level.</li>
+      <li><strong>FIBA World Cup:</strong> A global competition organized by the International Basketball Federation (FIBA) featuring the best national teams from around the world.</li>
+    </ul>
+    <p>One of the most famous basketball tournaments is the <strong>NBA Finals</strong>, where the champions of the Eastern and Western Conferences compete for the NBA championship. The NBA also hosts the <strong>NBA All-Star Game</strong>, an annual exhibition game showcasing the league's top players.</p>
+    
+    <h2>Famous Basketball Players</h2>
+    <p>Throughout basketball's history, many legendary players have left their mark on the sport. Here are some of the most iconic players:</p>
+    <ul>
+      <li><strong>Michael Jordan:</strong> Widely considered the greatest basketball player of all time. He led the Chicago Bulls to six NBA championships and revolutionized the sport.</li>
+      <li><strong>LeBron James:</strong> A current NBA superstar known for his versatility, leadership, and incredible basketball IQ. LeBron has won multiple NBA championships.</li>
+      <li><strong>Kobe Bryant:</strong> A five-time NBA champion with the Los Angeles Lakers, known for his scoring ability and relentless work ethic.</li>
+      <li><strong>Magic Johnson:</strong> A Hall of Famer and former point guard for the Los Angeles Lakers, known for his exceptional passing skills and leadership.</li>
+      <li><strong>Shaquille O'Neal:</strong> One of the most dominant players in NBA history, Shaq was known for his physical presence and scoring ability in the paint.</li>
+    </ul>
+    <p>Below is an example of a basketball match in action.</p>
+    <video controls src="Basketball match.mp4" alt="Basketball match" width="400" height="200">
+
+</article>
+</section>
+
+<footer>
+  <p>Basketball In Sports. All Rights Reserved @2024</p>
+</footer>
+
+</body>
+</html>
